@@ -1,0 +1,13 @@
+Create table student(
+studentid INT(9),
+fname VARCHAR(20),
+mname VARCHAR(20),
+lname VARCHAR(20),
+bdate date, 
+address VARCHAR(50),
+city VARCHAR(50),
+state VARCHAR(50),
+pin INT(10),
+sex ENUM('M','F'),
+standard int(2),
+PRIMARY KEY (studentid));
